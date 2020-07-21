@@ -1,4 +1,4 @@
-pollutantmean <- function(directory, pollutant, id = 1:322){
+pollutantmean <- function(directory, pollutant, id = 1:332){
   #Import file
   files <- list.files(directory, full.names = TRUE)[id]
   
